@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 01 Mapbox dependencies -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+     <!-- 02 deck.gl dependencies -->
+    <script src="https://unpkg.com/deck.gl@^8.8.0/dist.min.js"></script>
+
+     <!-- 03 connection to style.css -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>API Philly</title>
+</head>
+<body>
+     <!-- 04 map container that map.js points towards -->
+     <div id="map"></div>
+     <!-- 05 (for bonus of the tutorial) panel and hover tooltip that update by map interaction -->
+     <tooltip id="panel"></tooltip>
+     <!-- 06 connection to map.js -->
+     <script src="./map.js"></script> 
+</body>
+</html>
